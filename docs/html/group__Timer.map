@@ -1,0 +1,4 @@
+<map id="Timer" name="Timer">
+<area shape="rect" id="node1" href="$group__Foundation.html" title=" " alt="" coords="5,5,100,31"/>
+<area shape="rect" id="node2" title="Can be used to execute some code at some point in the future." alt="" coords="148,5,208,31"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="TextLayer" name="TextLayer">
+<area shape="rect" id="node1" title="Layer that displays and formats a text string." alt="" coords="119,5,204,31"/>
+<area shape="rect" id="node2" href="$group__Layer.html" title="User interface layers for displaying graphic components." alt="" coords="5,5,71,31"/>
+</map>

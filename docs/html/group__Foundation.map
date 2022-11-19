@@ -1,0 +1,29 @@
+<map id="Foundation" name="Foundation">
+<area shape="rect" id="node1" title=" " alt="" coords="5,623,100,648"/>
+<area shape="rect" id="node2" href="$group__Logging.html" title="Functions related to logging from apps." alt="" coords="195,5,268,31"/>
+<area shape="rect" id="node3" href="$group__Dictation.html" title=" " alt="" coords="191,55,272,80"/>
+<area shape="rect" id="node4" href="$group__Internationalization.html" title="Internationalization &amp; Localization APIs." alt="" coords="157,104,306,129"/>
+<area shape="rect" id="node5" href="$group__WatchInfo.html" title="Provides information about the watch itself." alt="" coords="188,153,275,179"/>
+<area shape="rect" id="node6" href="$group__Math.html" title=" " alt="" coords="204,203,259,228"/>
+<area shape="rect" id="node7" href="$group__AppComm.html" title="API for interacting with the Pebble communication subsystem." alt="" coords="154,252,309,277"/>
+<area shape="rect" id="node8" href="$group__Platform.html" title=" " alt="" coords="192,301,271,327"/>
+<area shape="rect" id="node9" href="$group__Storage.html" title="A mechanism to store persistent application data and state." alt="" coords="195,351,267,376"/>
+<area shape="rect" id="node10" href="$group__ExitReason.html" title="API for the application to notify the system of the reason it will exit." alt="" coords="182,400,281,425"/>
+<area shape="rect" id="node11" href="$group__App.html" title=" " alt="" coords="208,449,255,475"/>
+<area shape="rect" id="node12" href="$group__DataLogging.html" title="Enables logging data asynchronously to a mobile app." alt="" coords="179,499,283,524"/>
+<area shape="rect" id="node13" href="$group__DataStructures.html" title=" " alt="" coords="172,548,291,573"/>
+<area shape="rect" id="node14" href="$group__Resources.html" title="Managing application resources." alt="" coords="187,597,276,623"/>
+<area shape="rect" id="node15" href="$group__AppSync.html" title="UI synchronization layer for AppMessage." alt="" coords="192,647,271,672"/>
+<area shape="rect" id="node16" href="$group__Timer.html" title="Can be used to execute some code at some point in the future." alt="" coords="201,696,261,721"/>
+<area shape="rect" id="node17" href="$group__Rocky.html" title=" " alt="" coords="201,745,262,771"/>
+<area shape="rect" id="node18" href="$group__MemoryManagement.html" title="Utility functions for managing an application&#39;s memory." alt="" coords="148,795,315,820"/>
+<area shape="rect" id="node19" href="$group__LaunchReason.html" title="API for checking what caused the application to launch." alt="" coords="171,844,291,869"/>
+<area shape="rect" id="node20" href="$group__Wakeup.html" title="Allows applications to schedule to be launched even if they are not running." alt="" coords="195,893,268,919"/>
+<area shape="rect" id="node21" href="$group__Worker.html" title=" " alt="" coords="198,943,265,968"/>
+<area shape="rect" id="node22" href="$group__EventService.html" title=" " alt="" coords="178,992,285,1017"/>
+<area shape="rect" id="node23" href="$group__WallTime.html" title="Functions, data structures and other things related to wall clock time." alt="" coords="188,1041,275,1067"/>
+<area shape="rect" id="node24" href="$group__AppGlance.html" title="API for the application to modify its glance." alt="" coords="183,1091,279,1116"/>
+<area shape="rect" id="node25" href="$group__Dictionary.html" title="Data serialization utilities." alt="" coords="187,1140,276,1165"/>
+<area shape="rect" id="node26" href="$group__AppMessage.html" title="Bi&#45;directional communication between phone apps and Pebble watchapps." alt="" coords="179,1189,284,1215"/>
+<area shape="rect" id="node27" href="$group__AppWorker.html" title="Runs in the background, and can communicate with the foreground app." alt="" coords="185,1239,277,1264"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Pebble::AppWindow" name="Pebble::AppWindow">
+<area shape="rect" id="node1" title="Base class for application windows." alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node2" href="$classPebble_1_1Window.html" title="Wraps and existing Pebble window but does not take ownership of it." alt="" coords="17,80,144,107"/>
+<area shape="rect" id="node3" href="$classPebble_1_1Layer.html" title=" " alt="" coords="25,5,136,32"/>
+</map>

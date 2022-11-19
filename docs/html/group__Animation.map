@@ -1,0 +1,5 @@
+<map id="Animation" name="Animation">
+<area shape="rect" id="node1" title="Abstract framework to create arbitrary animations." alt="" coords="92,5,181,31"/>
+<area shape="rect" id="node3" href="$group__PropertyAnimation.html" title="A ProperyAnimation animates the value of a &quot;property&quot; of a &quot;subject&quot; over time." alt="" coords="229,5,373,31"/>
+<area shape="rect" id="node2" href="$group__UI.html" title=" " alt="" coords="5,5,44,31"/>
+</map>

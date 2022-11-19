@@ -1,0 +1,5 @@
+<map id="Graphics Types" name="Graphics Types">
+<area shape="rect" id="node1" title="Basic graphics types (point, rect, size, color, bitmaps, etc.) and utility functions." alt="" coords="132,5,252,31"/>
+<area shape="rect" id="node3" href="$group__ColorDefinitions.html" title=" " alt="" coords="300,5,431,31"/>
+<area shape="rect" id="node2" href="$group__Graphics.html" title=" " alt="" coords="5,5,84,31"/>
+</map>

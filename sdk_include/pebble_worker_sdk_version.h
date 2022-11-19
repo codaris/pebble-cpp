@@ -1,0 +1,141 @@
+//! @file pebble_sdk_version.h
+//! This file implements the PBL_API_EXISTS macro for checking the presence of a given
+//! API. This allows developers to target multiple SDKs using the same codebase by only
+//! compiling code on SDKs that support the functions they're attempting to use.
+
+#define _PBL_API_EXISTS_watch_info_get_model
+#define _PBL_API_EXISTS_watch_info_get_firmware_version
+#define _PBL_API_EXISTS_watch_info_get_color
+#define _PBL_API_EXISTS_sin_lookup
+#define _PBL_API_EXISTS_cos_lookup
+#define _PBL_API_EXISTS_atan2_lookup
+#define _PBL_API_EXISTS_clock_copy_time_string
+#define _PBL_API_EXISTS_clock_is_24h_style
+#define _PBL_API_EXISTS_clock_to_timestamp
+#define _PBL_API_EXISTS_clock_is_timezone_set
+#define _PBL_API_EXISTS_clock_get_timezone
+#define _PBL_API_EXISTS_connection_service_peek_pebble_app_connection
+#define _PBL_API_EXISTS_connection_service_peek_pebblekit_connection
+#define _PBL_API_EXISTS_connection_service_subscribe
+#define _PBL_API_EXISTS_connection_service_unsubscribe
+#define _PBL_API_EXISTS_bluetooth_connection_service_peek
+#define _PBL_API_EXISTS_bluetooth_connection_service_subscribe
+#define _PBL_API_EXISTS_bluetooth_connection_service_unsubscribe
+#define _PBL_API_EXISTS_battery_state_service_subscribe
+#define _PBL_API_EXISTS_battery_state_service_unsubscribe
+#define _PBL_API_EXISTS_battery_state_service_peek
+#define _PBL_API_EXISTS_accel_service_peek
+#define _PBL_API_EXISTS_accel_service_set_sampling_rate
+#define _PBL_API_EXISTS_accel_service_set_samples_per_update
+#define _PBL_API_EXISTS_accel_data_service_subscribe
+#define _PBL_API_EXISTS_accel_data_service_unsubscribe
+#define _PBL_API_EXISTS_accel_tap_service_subscribe
+#define _PBL_API_EXISTS_accel_tap_service_unsubscribe
+#define _PBL_API_EXISTS_accel_raw_data_service_subscribe
+#define _PBL_API_EXISTS_compass_service_set_heading_filter
+#define _PBL_API_EXISTS_compass_service_subscribe
+#define _PBL_API_EXISTS_compass_service_unsubscribe
+#define _PBL_API_EXISTS_compass_service_peek
+#define _PBL_API_EXISTS_tick_timer_service_subscribe
+#define _PBL_API_EXISTS_tick_timer_service_unsubscribe
+#define _PBL_API_EXISTS_health_service_sum
+#define _PBL_API_EXISTS_health_service_sum_today
+#define _PBL_API_EXISTS_health_service_peek_current_value
+#define _PBL_API_EXISTS_health_service_sum_averaged
+#define _PBL_API_EXISTS_health_service_aggregate_averaged
+#define _PBL_API_EXISTS_health_service_peek_current_activities
+#define _PBL_API_EXISTS_health_service_activities_iterate
+#define _PBL_API_EXISTS_health_service_metric_accessible
+#define _PBL_API_EXISTS_health_service_metric_averaged_accessible
+#define _PBL_API_EXISTS_health_service_metric_aggregate_averaged_accessible
+#define _PBL_API_EXISTS_health_service_any_activity_accessible
+#define _PBL_API_EXISTS_health_service_events_subscribe
+#define _PBL_API_EXISTS_health_service_events_unsubscribe
+#define _PBL_API_EXISTS_health_service_set_heart_rate_sample_period
+#define _PBL_API_EXISTS_health_service_get_heart_rate_sample_period_expiration_sec
+#define _PBL_API_EXISTS_health_service_register_metric_alert
+#define _PBL_API_EXISTS_health_service_cancel_metric_alert
+#define _PBL_API_EXISTS_health_service_get_minute_history
+#define _PBL_API_EXISTS_health_service_get_measurement_system_for_display
+#define _PBL_API_EXISTS_data_logging_create
+#define _PBL_API_EXISTS_data_logging_finish
+#define _PBL_API_EXISTS_data_logging_log
+#define _PBL_API_EXISTS_uuid_equal
+#define _PBL_API_EXISTS_uuid_to_string
+#define _PBL_API_EXISTS_app_log
+#define _PBL_API_EXISTS_dict_calc_buffer_size
+#define _PBL_API_EXISTS_dict_size
+#define _PBL_API_EXISTS_dict_write_begin
+#define _PBL_API_EXISTS_dict_write_data
+#define _PBL_API_EXISTS_dict_write_cstring
+#define _PBL_API_EXISTS_dict_write_int
+#define _PBL_API_EXISTS_dict_write_uint8
+#define _PBL_API_EXISTS_dict_write_uint16
+#define _PBL_API_EXISTS_dict_write_uint32
+#define _PBL_API_EXISTS_dict_write_int8
+#define _PBL_API_EXISTS_dict_write_int16
+#define _PBL_API_EXISTS_dict_write_int32
+#define _PBL_API_EXISTS_dict_write_end
+#define _PBL_API_EXISTS_dict_read_begin_from_buffer
+#define _PBL_API_EXISTS_dict_read_next
+#define _PBL_API_EXISTS_dict_read_first
+#define _PBL_API_EXISTS_dict_serialize_tuplets
+#define _PBL_API_EXISTS_dict_serialize_tuplets_to_buffer
+#define _PBL_API_EXISTS_dict_serialize_tuplets_to_buffer_with_iter
+#define _PBL_API_EXISTS_dict_write_tuplet
+#define _PBL_API_EXISTS_dict_calc_buffer_size_from_tuplets
+#define _PBL_API_EXISTS_dict_merge
+#define _PBL_API_EXISTS_dict_find
+#define _PBL_API_EXISTS_worker_event_loop
+#define _PBL_API_EXISTS_worker_launch_app
+#define _PBL_API_EXISTS_app_worker_is_running
+#define _PBL_API_EXISTS_app_worker_launch
+#define _PBL_API_EXISTS_app_worker_kill
+#define _PBL_API_EXISTS_app_worker_message_subscribe
+#define _PBL_API_EXISTS_app_worker_message_unsubscribe
+#define _PBL_API_EXISTS_app_worker_send_message
+#define _PBL_API_EXISTS_psleep
+#define _PBL_API_EXISTS_app_timer_register
+#define _PBL_API_EXISTS_app_timer_reschedule
+#define _PBL_API_EXISTS_app_timer_cancel
+#define _PBL_API_EXISTS_heap_bytes_free
+#define _PBL_API_EXISTS_heap_bytes_used
+#define _PBL_API_EXISTS_memory_cache_flush
+#define _PBL_API_EXISTS_persist_exists
+#define _PBL_API_EXISTS_persist_get_size
+#define _PBL_API_EXISTS_persist_read_bool
+#define _PBL_API_EXISTS_persist_read_int
+#define _PBL_API_EXISTS_persist_read_data
+#define _PBL_API_EXISTS_persist_read_string
+#define _PBL_API_EXISTS_persist_write_bool
+#define _PBL_API_EXISTS_persist_write_int
+#define _PBL_API_EXISTS_persist_write_data
+#define _PBL_API_EXISTS_persist_write_string
+#define _PBL_API_EXISTS_persist_delete
+#define _PBL_API_EXISTS_strftime
+#define _PBL_API_EXISTS_localtime
+#define _PBL_API_EXISTS_gmtime
+#define _PBL_API_EXISTS_mktime
+#define _PBL_API_EXISTS_time
+#define _PBL_API_EXISTS_difftime
+#define _PBL_API_EXISTS_time_ms
+#define _PBL_API_EXISTS_time_start_of_today
+
+//! @addtogroup Misc
+//! @{
+
+//! @addtogroup Compatibility Compatibility Macros
+//! @{
+
+//! Evaluates to true if a given function is available in this SDK
+//! For example: `#if PBL_API_EXISTS(app_event_loop)` will evaluate to true because
+//! app_event_loop is a valid pebble API function, where
+//! `#if PBL_API_EXISTS(spaceship_event_loop)` will evaluate to false because that function
+//! does not exist (yet).
+//! Use this to build apps that are valid when built with different SDK versions that support
+//! different levels of functionality.
+#define PBL_API_EXISTS(x) defined(_PBL_API_EXISTS_##x)
+
+//! @} // end addtogroup Compatibility
+
+//! @} // end addtogroup Misc

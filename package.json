@@ -1,0 +1,21 @@
+{
+  "name": "pebble-cpp",
+  "author": "Wayne Venables",
+  "version": "0.2.0",
+  "files": ["dist.zip"],
+  "keywords": ["pebble-package"],
+  "dependencies": {},
+  "pebble": {
+    "projectType": "package",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

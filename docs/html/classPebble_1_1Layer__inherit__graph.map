@@ -1,0 +1,14 @@
+<map id="Pebble::Layer" name="Pebble::Layer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,116,209"/>
+<area shape="rect" id="node2" href="$classPebble_1_1ActionBarLayer.html" title="Vertical, bar&#45;shaped control widget on the right edge of the window." alt="" coords="173,5,346,32"/>
+<area shape="rect" id="node3" href="$classPebble_1_1MenuLayer.html" title=" " alt="" coords="186,56,333,83"/>
+<area shape="rect" id="node4" href="$classPebble_1_1ScrollLayer.html" title=" " alt="" coords="186,107,333,133"/>
+<area shape="rect" id="node5" href="$classPebble_1_1SimpleLayer.html" title="Layer that is automatically managed." alt="" coords="182,157,337,184"/>
+<area shape="rect" id="node7" href="$classPebble_1_1SimpleMenuLayer.html" title=" " alt="" coords="164,208,355,235"/>
+<area shape="rect" id="node8" href="$classPebble_1_1StatusBarLayer.html" title=" " alt="" coords="173,259,346,285"/>
+<area shape="rect" id="node9" href="$classPebble_1_1TextLayer.html" title=" " alt="" coords="191,309,328,336"/>
+<area shape="rect" id="node10" href="$classPebble_1_1Window.html" title="Wraps and existing Pebble window but does not take ownership of it." alt="" coords="196,360,323,387"/>
+<area shape="rect" id="node6" href="$classPebble_1_1CustomLayer.html" title="Layer that is automatically managed and contains an OnUpdate callback for drawing." alt="" coords="412,157,572,184"/>
+<area shape="rect" id="node11" href="$classPebble_1_1AppWindow.html" title="Base class for application windows." alt="" coords="417,335,567,361"/>
+<area shape="rect" id="node12" href="$classPebble_1_1NumberWindow.html" title=" " alt="" coords="403,385,581,412"/>
+</map>

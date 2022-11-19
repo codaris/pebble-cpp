@@ -1,0 +1,4 @@
+<map id="SimpleMenuLayer" name="SimpleMenuLayer">
+<area shape="rect" id="node1" href="$group__Layer.html" title="User interface layers for displaying graphic components." alt="" coords="5,5,71,31"/>
+<area shape="rect" id="node2" title="Wrapper around MenuLayer, that uses static data to display a list menu." alt="" coords="119,5,257,31"/>
+</map>

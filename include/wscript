@@ -1,0 +1,57 @@
+#
+# This file is the default set of rules to compile a Pebble project.
+#
+# Feel free to customize this to your needs.
+#
+import os
+import shutil
+import waflib
+
+top = '.'
+out = 'build'
+
+
+def distclean(ctx):
+    if os.path.exists('dist.zip'):
+        os.remove('dist.zip')
+    if os.path.exists('dist'):
+        shutil.rmtree('dist')
+    waflib.Scripting.distclean(ctx)
+
+
+def options(ctx):
+    ctx.load('pebble_sdk_lib')
+
+
+def configure(ctx):
+    ctx.load('pebble_sdk_lib')
+    ctx.load('g++')
+
+
+def build(ctx):
+    ctx.load('pebble_sdk_lib')
+
+    cached_env = ctx.env
+    for platform in ctx.env.TARGET_PLATFORMS:
+        ctx.env = ctx.all_envs[platform]
+        ctx.set_group(ctx.env.PLATFORM_NAME)
+        
+        # -- C++ Reconfiguration -- 
+        ctx.env.CXX = 'arm-none-eabi-g++'
+        ctx.env.CXXFLAGS = list(ctx.env.CFLAGS)
+        ctx.env.CXXFLAGS.remove('-std=c99')        
+        ctx.env.CXXFLAGS.extend(['-std=c++11', '-fPIE', '-fno-unwind-tables', '-fno-exceptions', '-fno-rtti'])
+        # -------------------------        
+        
+        lib_name = '{}/{}'.format(ctx.env.BUILD_DIR, ctx.env.PROJECT_INFO['name'])
+        ctx.pbl_build(source=ctx.path.ant_glob('src/c/**/*.cpp'), target=lib_name, bin_type='lib')
+    ctx.env = cached_env
+
+    ctx.set_group('bundle')
+    ctx.pbl_bundle(includes=ctx.path.ant_glob('include/**/*'),
+                   js=ctx.path.ant_glob(['src/js/**/*.js', 'src/js/**/*.json']),
+                   bin_type='lib')
+
+    if ctx.cmd == 'clean':
+        for n in ctx.path.ant_glob(['dist/**/*', 'dist.zip'], quiet=True):
+            n.delete()
