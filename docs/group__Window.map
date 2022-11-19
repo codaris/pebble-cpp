@@ -1,0 +1,6 @@
+<map id="Window" name="Window">
+<area shape="rect" id="node1" href="$group__NumberWindow.html" title="A ready&#45;made Window prompting the user to pick a number." alt="" coords="215,5,341,31"/>
+<area shape="rect" id="node2" title="The basic building block of the user interface." alt="" coords="92,31,167,56"/>
+<area shape="rect" id="node4" href="$group__ActionMenu.html" title=" " alt="" coords="229,55,327,80"/>
+<area shape="rect" id="node3" href="$group__UI.html" title=" " alt="" coords="5,31,44,56"/>
+</map>

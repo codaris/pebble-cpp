@@ -1,0 +1,4 @@
+<map id="Wakeup" name="Wakeup">
+<area shape="rect" id="node1" href="$group__Foundation.html" title=" " alt="" coords="5,5,100,31"/>
+<area shape="rect" id="node2" title="Allows applications to schedule to be launched even if they are not running." alt="" coords="148,5,221,31"/>
+</map>

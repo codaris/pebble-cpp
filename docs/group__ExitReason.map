@@ -1,0 +1,4 @@
+<map id="Exit Reason" name="Exit Reason">
+<area shape="rect" id="node1" href="$group__Foundation.html" title=" " alt="" coords="5,5,100,31"/>
+<area shape="rect" id="node2" title="API for the application to notify the system of the reason it will exit." alt="" coords="148,5,247,31"/>
+</map>

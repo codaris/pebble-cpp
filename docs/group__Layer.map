@@ -1,0 +1,12 @@
+<map id="Layers" name="Layers">
+<area shape="rect" id="node1" href="$group__ScrollLayer.html" title="Layer that scrolls its contents, animated." alt="" coords="227,5,322,31"/>
+<area shape="rect" id="node2" href="$group__ActionBarLayer.html" title="Vertical, bar&#45;shaped control widget on the right edge of the window." alt="" coords="214,55,335,80"/>
+<area shape="rect" id="node3" href="$group__UI.html" title=" " alt="" coords="5,179,44,204"/>
+<area shape="rect" id="node5" title="User interface layers for displaying graphic components." alt="" coords="92,179,157,204"/>
+<area shape="rect" id="node4" href="$group__TextLayer.html" title="Layer that displays and formats a text string." alt="" coords="232,104,317,129"/>
+<area shape="rect" id="node6" href="$group__SimpleMenuLayer.html" title="Wrapper around MenuLayer, that uses static data to display a list menu." alt="" coords="205,153,344,179"/>
+<area shape="rect" id="node7" href="$group__RotBitmapLayer.html" title="Layer that displays a rotated bitmap image." alt="" coords="211,203,338,228"/>
+<area shape="rect" id="node8" href="$group__MenuLayer.html" title="Layer that displays a standard list menu. Data is provided using callbacks." alt="" coords="227,252,322,277"/>
+<area shape="rect" id="node9" href="$group__StatusBarLayer.html" title="Layer that serves as a configurable status bar." alt="" coords="214,301,335,327"/>
+<area shape="rect" id="node10" href="$group__BitmapLayer.html" title="Layer that displays a bitmap image." alt="" coords="222,351,327,376"/>
+</map>

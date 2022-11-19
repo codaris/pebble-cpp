@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['b_227',['b',['../unionGColor8.html#a1333f4c54f218f585765bd26cb72aa22',1,'GColor8']]],
+  ['background_228',['background',['../structContentIndicatorConfig.html#a88ea41ea8e8c9ab7adf02f726630f0b1',1,'ContentIndicatorConfig::background()'],['../structActionMenuConfig.html#aa08a815367a166facdaf6cfa5c17b040',1,'ActionMenuConfig::background()']]],
+  ['base_229',['base',['../structPropertyAnimationImplementation.html#a4f8d0d4c92845fcc68bf491b6097d96d',1,'PropertyAnimationImplementation']]],
+  ['battery_5fstate_5fservice_5fpeek_230',['battery_state_service_peek',['../group__BatteryStateService.html#ga0db4a30663844c173acb72f9204e6fcb',1,'pebble.h']]],
+  ['battery_5fstate_5fservice_5fsubscribe_231',['battery_state_service_subscribe',['../group__BatteryStateService.html#gadef114a27f24cc39e3ee5bda3756c865',1,'pebble.h']]],
+  ['battery_5fstate_5fservice_5funsubscribe_232',['battery_state_service_unsubscribe',['../group__BatteryStateService.html#ga787d24a03fe9a51cd61e24a9775efbc6',1,'pebble.h']]],
+  ['batterychargestate_233',['BatteryChargeState',['../structBatteryChargeState.html',1,'']]],
+  ['batterystatehandler_234',['BatteryStateHandler',['../group__BatteryStateService.html#ga4aa17d228becf546edee7c193baba50f',1,'BatteryStateHandler():&#160;pebble.h'],['../group__BatteryStateService.html#ga4aa17d228becf546edee7c193baba50f',1,'BatteryStateHandler():&#160;pebble_worker.h']]],
+  ['batterystateservice_235',['BatteryStateService',['../group__BatteryStateService.html',1,'']]],
+  ['bitmap_5flayer_5fcreate_236',['bitmap_layer_create',['../group__BitmapLayer.html#ga3fa77622a7b1ea656f0503dfadeea712',1,'pebble.h']]],
+  ['bitmap_5flayer_5fdestroy_237',['bitmap_layer_destroy',['../group__BitmapLayer.html#ga4ef30a7562a029d81e2956ab8068f0f5',1,'pebble.h']]],
+  ['bitmap_5flayer_5fget_5fbitmap_238',['bitmap_layer_get_bitmap',['../group__BitmapLayer.html#gabe873bfc58601ef31730591192e16b45',1,'pebble.h']]],
+  ['bitmap_5flayer_5fget_5flayer_239',['bitmap_layer_get_layer',['../group__BitmapLayer.html#gac9147d277bf7e57b5efcaebf8db3f0b2',1,'pebble.h']]],
+  ['bitmap_5flayer_5fset_5falignment_240',['bitmap_layer_set_alignment',['../group__BitmapLayer.html#ga4c1765f9330890641c4c09ba7e894894',1,'pebble.h']]],
+  ['bitmap_5flayer_5fset_5fbackground_5fcolor_241',['bitmap_layer_set_background_color',['../group__BitmapLayer.html#ga67522a1e62431f0f68d161d83fb6d83e',1,'pebble.h']]],
+  ['bitmap_5flayer_5fset_5fbitmap_242',['bitmap_layer_set_bitmap',['../group__BitmapLayer.html#ga919b52c2feb69c13966f4a52815377f8',1,'pebble.h']]],
+  ['bitmap_5flayer_5fset_5fcompositing_5fmode_243',['bitmap_layer_set_compositing_mode',['../group__BitmapLayer.html#ga7bc761ca8227881c5853cbc0e279385e',1,'pebble.h']]],
+  ['bitmaplayer_244',['BitmapLayer',['../group__BitmapLayer.html',1,'']]],
+  ['bottom_245',['bottom',['../structGEdgeInsets.html#a7d4eeb631159c5e1c390e4d1977db076',1,'GEdgeInsets']]],
+  ['button_5fid_5fback_246',['BUTTON_ID_BACK',['../group__Clicks.html#ggaa60e15d86cfe7033f28c7d066c85266eacb728f0712020cbbbf0d7f4f68359e8e',1,'pebble.h']]],
+  ['button_5fid_5fdown_247',['BUTTON_ID_DOWN',['../group__Clicks.html#ggaa60e15d86cfe7033f28c7d066c85266ea65a919b8a0f4539acfb865eb2a2dd9d0',1,'pebble.h']]],
+  ['button_5fid_5fselect_248',['BUTTON_ID_SELECT',['../group__Clicks.html#ggaa60e15d86cfe7033f28c7d066c85266ea98093cd31c917223780131cfafe91dec',1,'pebble.h']]],
+  ['button_5fid_5fup_249',['BUTTON_ID_UP',['../group__Clicks.html#ggaa60e15d86cfe7033f28c7d066c85266eafb03cb7921a8bb7893cd8093a1a5e9cb',1,'pebble.h']]],
+  ['buttonid_250',['ButtonId',['../group__Clicks.html#gaa60e15d86cfe7033f28c7d066c85266e',1,'pebble.h']]],
+  ['bytes_251',['bytes',['../structTuplet.html#a8e14307a27b9c615ea4cea611bb31059',1,'Tuplet::bytes()'],['../structTuplet.html#a2a61a1561303f034cda9ea35b436634e',1,'Tuplet::bytes()']]]
+];
