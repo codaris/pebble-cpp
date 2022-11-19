@@ -1,4 +1,0 @@
-<map id="MenuLayer" name="MenuLayer">
-<area shape="rect" id="node1" href="$group__Layer.html" title="User interface layers for displaying graphic components." alt="" coords="5,5,71,31"/>
-<area shape="rect" id="node2" title="Layer that displays a standard list menu. Data is provided using callbacks." alt="" coords="119,5,213,31"/>
-</map>

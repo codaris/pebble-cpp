@@ -1,4 +1,0 @@
-<map id="SimpleMenuSection" name="SimpleMenuSection">
-<area shape="rect" id="node1" title="Data structure containing the information of a menu section." alt="" coords="5,95,156,121"/>
-<area shape="rect" id="node2" href="$structSimpleMenuItem.html" title="Data structure containing the information of a menu item." alt="" coords="14,5,147,32"/>
-</map>

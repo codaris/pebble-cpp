@@ -1,6 +1,0 @@
-<map id="UnobstructedAreaHandlers" name="UnobstructedAreaHandlers">
-<area shape="rect" id="node1" title=" " alt="" coords="5,184,203,211"/>
-<area shape="rect" id="node2" href="$structGRect.html" title=" " alt="" coords="73,95,135,121"/>
-<area shape="rect" id="node3" href="$structGSize.html" title="Represents a 2&#45;dimensional size." alt="" coords="32,5,91,32"/>
-<area shape="rect" id="node4" href="$structGPoint.html" title=" " alt="" coords="115,5,181,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="NumberWindow" name="NumberWindow">
-<area shape="rect" id="node1" title="A ready&#45;made Window prompting the user to pick a number." alt="" coords="128,5,255,31"/>
-<area shape="rect" id="node2" href="$group__Window.html" title="The basic building block of the user interface." alt="" coords="5,5,80,31"/>
-</map>

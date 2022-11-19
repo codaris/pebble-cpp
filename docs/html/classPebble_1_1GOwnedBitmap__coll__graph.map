@@ -1,5 +1,0 @@
-<map id="Pebble::GOwnedBitmap" name="Pebble::GOwnedBitmap">
-<area shape="rect" id="node1" title="A bitmap that destroys the underlying reference when destructed." alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node2" href="$classPebble_1_1GBitmapBase.html" title=" " alt="" coords="145,5,308,32"/>
-<area shape="rect" id="node3" href="$classPebble_1_1GBitmap.html" title="An unowned bitmap." alt="" coords="205,95,336,121"/>
-</map>
