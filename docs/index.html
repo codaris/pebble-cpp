@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pebble Foundation Classes: Pebble Foundation Classes</title>
+<title>Pebble Foundation Classes: Introduction</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,10 +85,56 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Pebble Foundation Classes </div>  </div>
+<div class="title">Introduction </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Test </p>
+<div class="textblock"><p>This Pebble Package gives you the ability to code Pebble watchapps using C++. It wraps the Pebble API in an low-overhead header-only object-oriented library.</p>
+<h1><a class="anchor" id="autotoc_md0"></a>
+Why would you do this?!?</h1>
+<blockquote class="doxtable">
+<p>The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man. </p>
+</blockquote>
+<p>- <em>George Bernard Shaw</em></p>
+<p>I mostly work in high-level languages like C#, Java, Python, and C++ and I started to struggle with organizing my Pebble watchapp code in C. As my projects grew larger, it became harder to juggle all the structs, callback contexts, and especially global variables. <br  />
+</p>
+<p>So in the fall of 2014 I started a project to bring C++ to Pebble development. There were many false starts and difficult problems. I eventually got to where all the big problems were resolved and I just needed to build out the library. But after Pebble closed it's doors I stopped working on it.</p>
+<p>When the first <a href="https://rebble.io/hackathon-001/">Rebble Hackathon</a> was announced, it seemed like the time to try and finish this project or at least release what I have to the world.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Features and Benfeits</h1>
+<ul>
+<li>PFC classes automatically manage the context pointer in Pebble OS callbacks.</li>
+<li>All PFC methods are inline with low-to-zero overhead.</li>
+<li>Ability to use STL classes like <code>std::string</code>, <code>std::vector</code>, and <code>std::unique_ptr</code> for more high-level development.</li>
+<li>Organize your Windows and Layers into their own classes.</li>
+<li>Use RAII to automatically free resources when they are no longer needed.</li>
+<li>Fully compatible with the Pebble C API &ndash; you can call C functions with PFC class instances as parameters and use Pebble C types with C++ classes and methods. <br  />
+</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Getting Started</h1>
+<p>To get started, please check out the following pages:</p>
+<ul>
+<li><a href="tutorial.html">Simple C++ Application Tutorial</a></li>
+<li><a href="using.html">Using this SDK</a></li>
+</ul>
+<p>They provide detailed information about configuring the project to build C++ files and how to structure your code.</p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Using this Documentaton</h1>
+<p>Since the Pebble Foundation Classes is fully compatible with and uses many of the base Pebble C types, this documentation is a combination of the standard Pebble SDK documentation and the additional PFC classes. The PFC classes are all contained within the Pebble namespace.</p>
+<p>Use the tree on the left to navigate the modules and class documentation.</p>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Example and Tutorial Programs</h2>
+<p>You can view and download various sample projects from the site below:</p>
+<ul>
+<li><a href="https://github.com/codaris/pebble-cpp-examples">Pebble Foundation Classes Example Projects GitHub</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Getting Help</h1>
+<p>You can get help with this SDK using the <a href="https://github.com/codaris/pebble-cpp/issues">GitHub Project Issues Tab</a> or by using the <a href="https://discord.com/invite/aRUAYFN">Rebble Alliance Discord</a>.</p>
+<p>Also please check out the <a href="issues.html">Known Issues</a> page.</p>
+<h1><a class="anchor" id="autotoc_md6"></a>
+Contributing</h1>
+<p>View the <a href="https://github.com/codaris/pebble-cpp">Pebble Foundation Classes GitHub project</a> for information on contributing. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -3,11 +3,6 @@
 namespace Pebble {
 
 //! @addtogroup TickTimerService
-//! \brief Handling time components
-//!
-//! The TickTimerService allows your app to be called every time one Time component has changed.
-//! This is extremely important for watchfaces. Your app can choose on which time component
-//! change a tick should occur. Time components are defined by a \ref TimeUnits enum bitmask.
 //! @{
 
 class TickTimer

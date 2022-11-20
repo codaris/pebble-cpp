@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['batterychargestate_1455',['BatteryChargeState',['../structBatteryChargeState.html',1,'']]]
+  ['batterychargestate_1458',['BatteryChargeState',['../structBatteryChargeState.html',1,'']]]
 ];
