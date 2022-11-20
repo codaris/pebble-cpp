@@ -1,9 +1,19 @@
 {
   "name": "pebble-cpp",
   "author": "Wayne Venables",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "files": ["dist.zip"],
   "keywords": ["pebble-package"],
+  "description": "Develop Pebble Applications using C++",
+  "homepage": "https://github.com/codaris/pebble-cpp",
+  "bugs": {
+    "url": "https://github.com/codaris/pebble-cpp/blob/main/Issues.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codaris/pebble-cpp.git"
+  },
+  "license": "Apache-2.0",
   "dependencies": {},
   "pebble": {
     "projectType": "package",

@@ -23,6 +23,36 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Pebble Foundation Classes", "index.html", [
+    [ "Introduction", "index.html", [
+      [ "Why would you do this?!?", "index.html#autotoc_md0", null ],
+      [ "Features and Benfeits", "index.html#autotoc_md1", null ],
+      [ "Getting Started", "index.html#autotoc_md2", null ],
+      [ "Using this Documentaton", "index.html#autotoc_md3", [
+        [ "Example and Tutorial Programs", "index.html#autotoc_md4", null ]
+      ] ],
+      [ "Getting Help", "index.html#autotoc_md5", null ],
+      [ "Contributing", "index.html#autotoc_md6", null ]
+    ] ],
+    [ "Known Issues", "issues.html", null ],
+    [ "Tutorial", "tutorial.html", null ],
+    [ "Using this SDK", "using.html", [
+      [ "Installing the Package", "using.html#autotoc_md14", null ],
+      [ "Updating the wscript file", "using.html#autotoc_md15", null ],
+      [ "Structure of Source files", "using.html#autotoc_md16", [
+        [ "I get the following error: ‘error: conflicting declaration 'typedef struct HealthMetricAlert* HealthMetricAlert’`", "issues.html#autotoc_md7", null ],
+        [ "1. Create a new project", "tutorial.html#autotoc_md8", null ],
+        [ "2. Install the pebble-cpp package", "tutorial.html#autotoc_md9", null ],
+        [ "3. Overwite the wscript file", "tutorial.html#autotoc_md10", null ],
+        [ "4. Create a new C++ file", "tutorial.html#autotoc_md11", null ],
+        [ "Build and Run", "tutorial.html#autotoc_md12", null ],
+        [ "Congradulations – You've done it.", "tutorial.html#autotoc_md13", null ],
+        [ "The entry point", "using.html#autotoc_md17", null ],
+        [ "The <Pebble.hpp> header", "using.html#autotoc_md18", null ]
+      ] ],
+      [ "The AppWindow class", "using.html#autotoc_md19", null ],
+      [ "Using Callbacks", "using.html#autotoc_md20", null ],
+      [ "The TickTimer class", "using.html#autotoc_md21", null ]
+    ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -55,9 +85,9 @@ var NAVTREEINDEX =
 "group__SimpleMenuLayer.html#ga738da5d7abed9feb0809d4a9115aba3a",
 "group__Wakeup.html#ga8c69fb46a7fdbc0a77fae0f6a2f9da5d",
 "group__Worker.html#gaba624492af6173015c4923120fa47e35",
-"pebble__sdk__version_8h.html#a6f9dedc87ae0561f768fb5ecb105ffca",
-"pebble__sdk__version_8h.html#aedba69b58c775d657d11fe51c263f733",
-"structTuplet.html#a81d9d96dec0f72554bd5e067d539889e"
+"pebble__sdk__version_8h.html#a6ac58f1729352673491af4f10ac58dd6",
+"pebble__sdk__version_8h.html#ae8fbeccbc55e8a12828472b62e8204dd",
+"structSmartstrapHandlers.html#a8a70b918dce365b73ec96fb155dac6cf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
