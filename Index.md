@@ -7,11 +7,11 @@ This Pebble Package gives you the ability to code Pebble watchapps using C++.  I
 > The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man.
 \- *George Bernard Shaw*
 
-I mostly work in high-level languages like C#, Java, Python, and C++ and I has started to struggle with organizing my Pebble watchapp code in C.  As my projects grew larger, it became harder to juggle all the structs, callback contexts, and especially global variables.  
+I mostly work in high-level languages like C#, Java, Python, and C++ and I started to struggle with organizing my Pebble watchapp code in C.  As my projects grew larger, it became harder to juggle all the structs, callback contexts, and especially global variables.  
 
-So in the fall of 2014 I started a project to bring C++ to Pebble development.  There were many false starts and difficult problems to resolve.  I eventually made it to where all the serious problems were resolved I just needed to build out the library.  But after Pebble closed it's doors I stopped working on it.
+So in the fall of 2014 I started a project to bring C++ to Pebble development.  There were many false starts and difficult problems.  I eventually got to where all the big problems were resolved and I just needed to build out the library.  But after Pebble closed it's doors I stopped working on it.
 
-When the first [Rebble Hackathon](https://rebble.io/hackathon-001/) was announced, it seemed like the time to try and finish this project or, at least, release what I have to the world.  
+When the first [Rebble Hackathon](https://rebble.io/hackathon-001/) was announced, it seemed like the time to try and finish this project or at least release what I have to the world.
 
 ## Features and Benfeits
 
