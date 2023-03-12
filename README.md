@@ -13,7 +13,7 @@ So in the fall of 2014 I started a project to bring C++ to Pebble development.  
 
 When the first [Rebble Hackathon](https://rebble.io/hackathon-001/) was announced, it seemed like the time to try and finish this project or at least release what I have to the world.  
 
-## Features and Benfeits
+## Features and Benefits
 
 * PFC classes automatically manage the context pointer in Pebble OS callbacks.
 * All PFC methods are inline with low-to-zero overhead.
